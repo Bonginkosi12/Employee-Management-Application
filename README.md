@@ -6,7 +6,7 @@ This project is actively under development. More services,improvements and featu
 Employee Management Application is a backend application built using a microservices architecture. The system is divided into independent services responsible for different areas of employee management.
 Each service has its own responsibility and database, while RabbitMQ is used for asynchronous communication between services.
 
-## Employee Management Microservices
+## Employee Management Application
 ### Structure:
 1. Employee Service - Manages employee information and employee-related operations.
    Repository: https://github.com/Bonginkosi12/Employee-Service.git

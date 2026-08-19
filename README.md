@@ -54,8 +54,7 @@ Backend:
 - Java
 - Spring Boot
 - REST APIs
-- Spring Data JPA
-- Hibernate
+- Spring Data JPA(Spring Data and Hibernate)
 
 Database:
 - PostgreSQL

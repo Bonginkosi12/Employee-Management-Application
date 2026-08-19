@@ -1,5 +1,8 @@
 # Employee-Management-Microservices
 ## project overview for Employee-Management Application
+##### Project Status
+This project is actively under development. More services and features will be added as development continues.
+
 Employee Management Microservices is a backend application built using a microservices architecture. The system is divided into independent services responsible for different areas of employee management.
 Each service has its own responsibility and database, while RabbitMQ is used for asynchronous communication between services.
 
@@ -63,6 +66,4 @@ Messaging:
 Development & Testing:
 - IntelliJ IDEA
 - Postman
-
-# More services and features will be added as development continues.
 

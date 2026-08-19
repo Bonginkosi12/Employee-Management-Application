@@ -37,16 +37,16 @@ EmployeeCreatedEvent(Message)
     
 
 ### Key Concepts Demonstrated
-Microservices Architecture
-RESTful API Development
-CRUD Operations
-Database-per-Service Architecture
-Event-Driven Architecture
-Asynchronous Messaging
-RabbitMQ Producers and Consumers
-Spring Data JPA
-PostgreSQL Database Integration
-Docker
+- Microservices Architecture
+- RESTful API Development
+- CRUD Operations
+- Database-per-Service Architecture
+- Event-Driven Architecture
+- Asynchronous Messaging
+- RabbitMQ Producers and Consumers
+- Spring Data JPA
+- PostgreSQL Database Integration
+- Docker
 
 ### Technology stack
 Backend:

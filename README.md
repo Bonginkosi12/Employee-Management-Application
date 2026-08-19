@@ -1,10 +1,10 @@
 # Employee-Management-Microservices
-# project overview for Employee-Management Application
+## project overview for Employee-Management Application
 Employee Management Microservices is a backend application built using a microservices architecture. The system is divided into independent services responsible for different areas of employee management.
 Each service has its own responsibility and database, while RabbitMQ is used for asynchronous communication between services.
 
 Employee Management Microservices
-# Structure:
+## Structure:
 1. Employee Service - Manages employee information and employee-related operations.
    Repository: https://github.com/Bonginkosi12/Employee-Service.git
 
@@ -20,7 +20,7 @@ Employee Management Microservices
 6. Attendance Service - Manages employee attendance records and attendance-related information.
    Repository: In progress
 
-# Architecture:
+## Architecture:
 Employee-Service(Producer)
         |
         |
@@ -34,7 +34,7 @@ EmployeeCreatedEvent(Message)
     Salary-Service\ leave-Service \ Performance-Service \ Attendance-Service
     
 
-# Key Concepts Demonstrated
+## Key Concepts Demonstrated
 Microservices Architecture
 RESTful API Development
 CRUD Operations
@@ -46,7 +46,7 @@ Spring Data JPA
 PostgreSQL Database Integration
 Docker
 
-# Technology stack
+## Technology stack
 Backend:
 - Java
 - Spring Boot

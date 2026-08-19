@@ -63,7 +63,6 @@ Messaging:
 Development & Testing:
 - IntelliJ IDEA
 - Postman
-- Maven
 
 # More services and features will be added as development continues.
 

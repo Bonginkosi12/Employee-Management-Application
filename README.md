@@ -64,4 +64,5 @@ Messaging:
 Development & Testing:
 - IntelliJ IDEA
 - Postman
+- Maven
 

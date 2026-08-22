@@ -17,7 +17,7 @@ Each service has its own responsibility and database, while RabbitMQ is used for
    Repository: https://github.com/Bonginkosi12/Leave-service.git
 
 5. Performance Service - Manages employee performance and performance-related information.
-   Repository: In progress
+   Repository: https://github.com/Bonginkosi12/Performance-Service.git
 
 6. Attendance Service - Manages employee attendance records and attendance-related information.
    Repository: In progress

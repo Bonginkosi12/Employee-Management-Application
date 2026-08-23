@@ -20,7 +20,7 @@ Each service has its own responsibility and database, while RabbitMQ is used for
    Repository: https://github.com/Bonginkosi12/Performance-Service.git
 
 6. Attendance Service - Manages employee attendance records and attendance-related information.
-   Repository: In progress
+   Repository:https://github.com/Bonginkosi12/Attendance-Service.git
 
 ### Architecture:
 Employee-Service(Producer)

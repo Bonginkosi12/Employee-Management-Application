@@ -33,7 +33,7 @@ Each service has its own responsibility and database, while RabbitMQ is used for
    - attendance.queue- For attendance-service
    - Messages wait in the queues if the consumer(s) are not online and get processed when the consumer is online.
 
-4. Consumers(receive events from producer through queues(RabbitMQ))
+4. Consumers(receive events from producer through queues(RabbitMQ), and do their work-creating initial records for the employee)
     - Salary-Service
     - leave-Service
     - Performance-Service

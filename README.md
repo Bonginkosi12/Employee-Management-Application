@@ -23,19 +23,22 @@ Each service has its own responsibility and database, while RabbitMQ is used for
    Repository:https://github.com/Bonginkosi12/Attendance-Service.git
 
 ### Architecture:
-Employee-Service(Producer)
-        |
-        |
-EmployeeCreatedEvent(Message)
-        |
-        |
-    RabbitMQ(RabbitMQ enables services to communicate through events without requiring direct synchronous communication between every service)
-        |
-        |
-    Consumers
-    Salary-Service\ leave-Service \ Performance-Service \ Attendance-Service
-    
+1. Employee-Service(Producer - This is the application that sends the event)
+   EmployeeCreatedEvent(Message from producer)
+  
+2. RabbitMQ(RabbitMQ enables services to communicate asynchronously through event-driven communication)
+   salary.queue - For salary-service
+   leave.queue - For leave-service
+   performance.queue - For perfomance-service
+   attendance.queue- For attendance-service
+   Messages wait in the queues if the consumer(s) are not online and get processed when the consumer is online.
 
+4. Consumers(receive events from producer through queues(RabbitMQ))
+    Salary-Service
+    leave-Service
+    Performance-Service
+    Attendance-Service
+    
 ### Key Concepts Demonstrated
 - Microservices Architecture
 - RESTful API Development

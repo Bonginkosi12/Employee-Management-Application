@@ -49,7 +49,7 @@ Each service has its own responsibility and database, while RabbitMQ is used for
 - RabbitMQ Producers and Consumers
 - Spring Data JPA
 - PostgreSQL Database Integration
-- Docker
+- Docker(RabbitMQ Container)
 
 ### Technology stack
 Backend:
